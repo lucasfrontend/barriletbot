@@ -1,0 +1,271 @@
+$color1: rgb(44, 44, 44);
+$color2: rgb(32, 32, 32);
+$color3: rgb(250, 190, 25);
+.main{
+    margin: 0px;
+    padding: 0px;
+    //background: url("");
+    //background-attachment: fixed;
+    //background-position: center;
+    //background-size: cover;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    //background-color: rgb(138, 135, 135);
+    background-image: url(./fondo2.jpg), linear-gradient(60deg, rgba(0,0,0,1) 7%, rgba(36,243,248,1) 60%);
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    .container-cel{
+        background-color: black;
+        text-align: center;
+        margin: 4%;
+        width: 100&;
+        max-width: 80vh;
+        border-radius: 25px;
+        border: black 20px solid;
+        -webkit-box-shadow: -2px 10px 5px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: -2px 10px 5px 0px rgba(0,0,0,0.75);
+        box-shadow: -2px 10px 5px 0px rgba(0,0,0,0.75);
+        .head-paint{
+            background-image: url(./head.jpg);
+        }
+        .header{
+            background-color: $color1;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            min-height: 6vh;
+            width: 100%;
+            overflow: hidden;
+            border-radius: 8px 8px 0px 0px;
+            .elements1{
+                display: inline-flex;
+                .flecha{
+                    margin: 15px;
+                    font-size: 1.8rem;
+                    color: gray;
+                    cursor: pointer;
+                }
+                .selfie{
+                    //align-items: center;
+                    padding: 10px;
+                    border-radius: 13px;
+                }
+                .data{
+                    flex-direction: column;
+                    text-align: start;
+                    .name{
+                        color: white;
+                        font-size: 1.5rem;
+                        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                        padding: 5px;
+                    }
+                    .distancia{
+                        color: whitesmoke;
+                        font-size: 1rem;
+                        padding: 3px;
+                    }
+                    @media (max-width: 450px){
+                        .name{
+                            font-size: 1.3rem;
+                        }
+                        .distancia{
+                            font-size: 0.9rem;
+                        }
+                    }
+                }
+            }
+            .elements2{
+                .cam{
+                    left: 50px;
+                    color: white;
+                    margin: 20px;
+                    font-size: 1.8rem;
+                    cursor: pointer;
+                }
+                @media (max-width: 450px){
+                    .cam{
+                        font-size: 1.5rem;
+                        margin: 15px;
+                    }
+                }
+            }
+
+
+        }
+        .chat{
+            background-color: $color2;
+            height: 80vh;
+            display: flex;
+            flex-direction: column;
+            overflow-x: hidden;
+            overflow-y: scroll;
+            //scroll-behavior: auto;
+            .chat-box{
+                max-height: 80vh;
+                .lista-chat{
+                    li{
+                        max-width: auto;
+                        border-radius: 7px;
+                        padding: 10px;
+                        margin: 7px;
+                        font-size: 1.5rem;
+                    }
+                    .amarillo{
+                        background-color: $color3;
+                        text-align: end;
+                        margin-left: 100px;
+                    }
+                    #saludoInicial{
+                        max-width: auto;
+                        text-align: start;
+                        background-color: rgb(129, 170, 248);
+                        border-radius: 7px;
+                        padding: 10px;
+                        margin: 7px;
+                        font-size: 1.5rem;
+                        margin-right: 100px;
+                        display: none;
+                    }
+                    .msjLuc{
+                        max-width: auto;
+                        text-align: start;
+                        background-color: rgb(129, 170, 248);
+                        border-radius: 7px;
+                        padding: 10px;
+                        margin: 7px;
+                        font-size: 1.5rem;
+                        margin-right: 100px;
+                    }
+                  
+                }
+                .misMensajes{
+                    max-width: auto;
+                    text-align: end;
+                    background-color: $color3;
+                    border-radius: 7px;
+                    padding: 10px;
+                    margin: 7px;
+                    font-size: 1.5rem;
+                }
+
+            }
+        }
+        .chat::-webkit-scrollbar{
+            width: 5px;
+            color: $color3;
+            background-color: $color2;
+        }
+        .chat::-webkit-scrollbar-thumb{
+            width: 5px;
+            background-color: rgb(112, 112, 112);
+            border-radius: 50px;
+        }
+
+        .footer{
+            display: flex;
+            justify-content: space-between;
+            background-color: $color1;
+            height: 10vh;
+            border-radius: 0px 0px 8px 8px;
+            .inputChat{
+                width: 95%;
+                background-color: $color1;
+                border-radius: 0px 0px 0px 8px;
+                border: 0px;
+                font-size: 1.6rem;
+                color: rgb(189, 183, 172);
+            }
+            ::placeholder{
+                color: rgb(189, 183, 172);
+            }
+            .enviar{
+                color: $color3;
+                font-size: 2rem;
+                cursor: pointer;
+                padding: 10px;
+                margin-right: 5px;
+                align-items: center;
+            }
+            &:hover{
+                background-color: rgb(20, 19, 19);
+                font-size: 2.1rem;
+            }
+        }
+    }
+}
+.footer-icons{
+            display: flex; 
+            flex-direction: column;
+            //background-color: rgb(2, 242, 250);
+             //background-image: linear-gradient(60deg, rgba(0,0,0,1) 21%, rgba(36,243,248,1) 92%);
+            //background-size: cover;
+            //background-blend-mode: multiply;
+            //background-repeat: no-repeat;
+            //background-attachment: fixed;
+            background-color: rgb(32, 32, 32);
+            min-height: 8vh;
+            color: white;
+            justify-content: center;
+            align-items: center;
+            font-size: 0.5rem;
+            font-family: 'Times New Roman', Times, serif;
+            text-transform: uppercase;
+            letter-spacing: 6px;
+            .iconos{
+                padding: 5px;
+                margin-bottom: 3px;
+                .fab{
+                    color: $color1;
+                    font-size: 1.1rem;
+                    padding: 4px;
+                    text-decoration: none;
+                }
+                .fab:hover{
+                }
+                #twitter{
+                    color: #38A1F3;
+                }
+                #twitter:hover{
+                    font-size: 1.3rem;
+                }
+                #fb{
+                    color: #4267b2;
+                }
+                #fb:hover{
+                    font-size: 1.3rem;
+                }
+                #ista{
+                    color:#e4405f;
+                }
+                #ista:hover{
+                    font-size: 1.3rem;
+                }
+                #wspp{
+                    color: #25D366;
+                }
+                #wspp:hover{
+                    font-size: 1.3rem;
+                }
+                #youtube{
+                    color:#c4302b;
+                }
+                #youtube:hover{
+                    font-size: 1.3rem;
+                }
+                #omega{
+                    color: rgb(52, 52, 253);
+                    font-size: 1rem;
+                    text-decoration: none;
+                }
+                #omega:hover{
+                    font-size: 1.2rem;
+                }
+                #blog{
+                    color:#e4405f;
+                    font-size: 1.2rem;
+                }
+            }
+} 
+
