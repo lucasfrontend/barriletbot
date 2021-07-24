@@ -218,10 +218,7 @@ resultVegan = vegan.test(input);
 	} else if (resultVegan == true){
 		mensajeBot = 'Los animales existen en el mundo por sus propias razones. No fueron hechos para el ser humano, del mismo modo que los negros no fueron hechos para los blancos, ni la mujer para el hombre...';
 		setTimeout(imprimirRespuesta, 3000);
-	} else if
-
-	
-	(resultMusica == true){
+	} else if (resultMusica == true){
 		mensajeBot = "q escuchás?";
 		setTimeout(imprimirRespuesta, 3000);
 	} else if (resultCuarentena == true){
@@ -249,12 +246,9 @@ resultVegan = vegan.test(input);
 		mensajeBot = "Siempre Ipa!";
 		setTimeout(imprimirRespuesta, 3000);
 	} else if (resultChino == true){
-		mensajeBot = "Mi chino de cabecera siempre tiene papitas sabor ketchup y la cerveza bien bien fria. Lo amo.";
+		mensajeBot = "Mi chino de cabecera siempre tiene papitas sabor ketchup y la cerveza bien bien fria.";
 		setTimeout(imprimirRespuesta, 3000);
-	} 
-	
-	
-	else if  ( resultMerca == true ){
+	} else if  ( resultMerca == true ){
 		mensajeBot = "No sé para qué toman, flashean que van a coger como conejos duracell y terminan anillándose los huevos, y ni así se les para.";
 		setTimeout(imprimirRespuesta, 3000);
 	} else if (resultPopper == true){
@@ -368,12 +362,7 @@ resultVegan = vegan.test(input);
 			"me re aburrro",
 			"qué buscas?",
 			"Dame un seg q voy al chino, contate algo mientras",
-			"Hoy ando que el culo me bosteza",
-	
-			//"Un palíndromo hermoso dice así: Sometamos o matemos",
-			//"Yo dono rosas, oro no doy",
-			//"Existen semipalíndromos o bifrontes, por ej, ratón-notar.",
-			
+			"Hoy ando que el culo me bosteza"
 		];
 		
 		var numAle = Math.floor(Math.random()*aleatorias.length);
