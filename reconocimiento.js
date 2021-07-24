@@ -179,9 +179,6 @@ resultVegan = vegan.test(input);
 	if(resultSaludo == true){
 		mensajeBot = "Todo bien acá, vos qué onda? q hacías?";
 		setTimeout(imprimirRespuesta, 3000);
-	} else if (resultBi ==  true){
-		mensajeBot = 'La bisexualidad existe, muy cierto. Es tan real como la versatilidad. Pero podes leer de atras para adelante y de adelante para atras que "s-e--e-s---o---n-o--s-e--e-s"';
-		setTimeout(imprimirRespuesta, 3000);
 	} else if  ( resultSeries == true ){
 		mensajeBot = "Q poco amor al cine, no sé cómo es que no se cansan de ver series de mierda.";
 		setTimeout(imprimirRespuesta, 5000);
@@ -200,23 +197,14 @@ resultVegan = vegan.test(input);
 	} else if (resultLeche == true){
 		mensajeBot = "Mi segundo palíndromo favorito es: Échele leche";
 		setTimeout(imprimirRespuesta, 3000);
-	} else if (resultLove == true){
-		mensajeBot = "Podes leerlo hasta al revés: yo sin amor broma ni soy";
-		setTimeout(imprimirRespuesta, 3000);
 	} else if (resultSucio == true){
 		mensajeBot = "Añora la roña.";
-		setTimeout(imprimirRespuesta, 3000);
-	} else if (resultVzl == true){
-		mensajeBot ="Me cae simpática la palabra Arepera,porq podes leerla al revés";
 		setTimeout(imprimirRespuesta, 3000);
 	} else if (resultMoral == true){
 		mensajeBot ='Lo podes leer de adelante para atras y de atras pa adelante: "la moral, claro, mal"';
 		setTimeout(imprimirRespuesta, 3000);
 	} else if (resultDoy == true){
 		mensajeBot ='Un palíndromo muy simpático dice: yo de todo te doy.';
-		setTimeout(imprimirRespuesta, 3000);
-	} else if (resultRoma == true){
-		mensajeBot = "A m o r";
 		setTimeout(imprimirRespuesta, 3000);
 	} else if (resultConcha == true){
 		mensajeBot = "Concha nunca. Se nace, no se hace";
@@ -239,10 +227,7 @@ resultVegan = vegan.test(input);
 	} else if (resultCuarentena == true){
 		mensajeBot = "Paja la cuarentena, igual a mí me gusta estar todo el día encerrado eh";
 		setTimeout(imprimirRespuesta, 3000);
-	} else if (resultMadre == true){
-		mensajeBot ="Siempre q dicen Madre pienso en un palíndromo: A mí me mima.";
-		setTimeout(imprimirRespuesta, 3000);
-	}else if  ( resultPuto == true ){
+	} else if  ( resultPuto == true ){
 		mensajeBot = "Muy puto";
 		setTimeout(imprimirRespuesta, 3000);
 	} else if  ( resultMorbo == true ){
@@ -257,31 +242,19 @@ resultVegan = vegan.test(input);
 	} else if (resultFotos == true){
 		mensajeBot = "Fotos? Proximamente. En q andas? q hacías?";
 		setTimeout(imprimirRespuesta, 3000);1
-	} else if (resultSomos == true){
-		mensajeBot = "Lo podes empezar a leer desde el principio, pero tmb lo podés empezar a leer desde el final: Somos o no somos";
-		setTimeout(imprimirRespuesta, 5000);
 	} else if (resultPaloma == true){
 		mensajeBot = 'Amo la paloma, amolap al oma';
 		setTimeout(imprimirRespuesta, 5000);
-	} else if (resultYoga == true){
-		mensajeBot = "Yo hago yoga hoy, yoh agoy ogah oy";
-		setTimeout(imprimirRespuesta, 3000);
 	} else if (resultIpa == true){
 		mensajeBot = "Siempre Ipa!";
 		setTimeout(imprimirRespuesta, 3000);
-	} else if (resultRata == true){
-		mensajeBot = 'ATAR A LA RATA. "Si lo ponés en plural todo cambia. Atar a las ratas no es lo mismo que atar a la rata. Atar a las ratas te da Satarsa la rata. Ahora sabés que hay una rata que se llama Satarsa. Todas tendrán nombres, seguro, pero ahora hay una que se llama Satarsa” escribió Cortazar';
-		setTimeout(imprimirRespuesta, 3000);
-	}	else if (resultChino == true){
+	} else if (resultChino == true){
 		mensajeBot = "Mi chino de cabecera siempre tiene papitas sabor ketchup y la cerveza bien bien fria. Lo amo.";
 		setTimeout(imprimirRespuesta, 3000);
 	} 
 	
 	
-	else if (resultGemir == true){
-		mensajeBot = "Alina Reyes escribió, amigo, no gima";
-		setTimeout(imprimirRespuesta, 3000);
-	} else if  ( resultMerca == true ){
+	else if  ( resultMerca == true ){
 		mensajeBot = "No sé para qué toman, flashean que van a coger como conejos duracell y terminan anillándose los huevos, y ni así se les para.";
 		setTimeout(imprimirRespuesta, 3000);
 	} else if (resultPopper == true){
@@ -329,9 +302,6 @@ resultVegan = vegan.test(input);
 	} else if (resultCristina == true){
 		mensajeBot = "Yo no quería, pero el macrismo me obligo a ser peronista";
 		setTimeout(imprimirRespuesta, 3000);
-	} else if (resultCumple){
-		mensajeBot = "Qué paja cumplir años. Vos cuando cumplis? yo el 9 de julio. Cayó nieve una vez :d";
-		setTimeout(imprimirRespuesta, 3000);
 	} else if (resultSugar == true){
 		mensajeBot = "SugarDaddy?!' Pero vayan a laburar, parásitas. Terminen el secundario q ya estan por cumplir 25!";
 		setTimeout(imprimirRespuesta, 3000);
@@ -347,10 +317,7 @@ resultVegan = vegan.test(input);
 	} else if (resultMegusta == true){
 		mensajeBot = "Me encanta!";
 		setTimeout(imprimirRespuesta, 3000);
-	} else if (resultbirra == true ){
-		mensajeBot = "A R R I B A LA B I R R A es el palíndromo más trillado, no por eso deja de ser mi favorito";
-		setTimeout(imprimirRespuesta, 3000);
-    } else if  ( resultNombre == true ){
+	} else if  ( resultNombre == true ){
 		mensajeBot = "Me llamo Lucas, pero me dicen Barrilete";
 		setTimeout(imprimirRespuesta, 4000);
     } else if  ( resultRol == true ){
@@ -368,7 +335,7 @@ resultVegan = vegan.test(input);
 	} else if (resultLugar == true){
 		mensajeBot = "Tengo lugar, sep. Vivo solo, en Recoleta.";
 		setTimeout(imprimirRespuesta, 4000);
-	}   else if (resultbarriosLejos == true){
+	} else if (resultbarriosLejos == true){
 		mensajeBot = "Vivimos medio lejos y yo soy re pajero, si t pinta venir todo bien, pero yo hasta ahí dificil";
 		setTimeout(imprimirRespuesta, 5000);
 	} else if (resultLubri == true){
